@@ -33,10 +33,10 @@ const allConfigs: Record<SupportedChains, ContractsConfig> = {
   },
   [ChainId.Rinkeby]: {
     deployerAddress: '0x3D0830242D42952ac873F7e698eA200eAAB44a28',
-    tokenAddress: '0xaa507B6082C753d962f6A9f01c575Ba8D1739b82',
-    minterAddress: '0x2C57c1530df4807804395f5A8D53fc98A3F880D2',
-    governorAddress: '0x34E804E07CB973A689dc8Da5B098e0711aCA2374',
-    timelockAddress: '0x69059161a9030096ad3245a854687D05e8ffEE52',
+    tokenAddress: '0xc5cBaa9cF47896E23dEF997861a5cE09Ce355c26',
+    minterAddress: '0x955E21A27A3F44973e5c90566F4f4fF5F32e10e9',
+    governorAddress: '0x469aDc53C87a4B3873058340295685bcaF7E2042',
+    timelockAddress: '0xFE6056CeEBD2C212a442e780aDD00B8cD45bbCA8',    
     minterType: MinterType.FixedPriceSequentialMinter,
   },
   [ChainId.OptimismKovan]: {
